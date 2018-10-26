@@ -1,0 +1,24 @@
+[[projects]]
+  name = "github.com/coreos/etcd"
+  packages = [
+    "etcdserver/stats",
+    "pkg/crc",
+    "pkg/fileutil",
+    "pkg/httputil",
+    "pkg/ioutil",
+    "pkg/logutil",
+    "pkg/pbutil",
+    "pkg/tlsutil",5
+    "pkg/transport",
+    "pkg/types",
+    "raft",
+    "raft/raftpb",
+    "rafthttp",
+    "snap",
+    "snap/snappb",
+    "version",
+    "wal",
+    "wal/walpb"
+  ]
+  revision = "960f4604bc821241b94906da5fe7f66306a77472"
+  version = "v3.1.11"
